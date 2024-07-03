@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>Procesamiento de Videos</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecera -->
+    <header>
+
+        <nav class="cabecera__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecera__buscar__item">
+                <form action="">
+                    <input type="search" placeholder="Buscar" id="buscar" class="buscar__input">
+                    <label for="buscar" class="buscar__label"></label>
+                </form>
+                <a href="#" class="cabecera__audio"></a>
+            </div>
+
+            <div class="cabecera__iconos__item">
+                <a href="#" class="cabecera__videos"></a>
+                <a href="#" class="cabecera__apps"></a>
+                <a href="#" class="cabecera__notificaciones"></a>
+                <a href="#" class="cabecera__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__inicio icono-item"></i>
+                    <span>Inicio</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__explorar icono-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__shorts icono-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__suscripciones icono-item"></i>
+                    <span>Suscripcion</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__biblioteca icono-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__historico icono-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__reloj icono-item"></i>
+                    <span>Ver más tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__like icono-item"></i>
+                    <span>Videos que me gustan</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__mostrar icono-item"></i>
+                    <span>Mostrar más</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__deschamps icono-item"></i>
+                    <span>Felipe Deschamps</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__nerd icono-item"></i>
+                    <span>Jovem Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__souto icono-item"></i>
+                    <span>Mario Souto</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__iamarino icono-item"></i>
+                    <span>Atila Iamarino</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__ballerini icono-item"></i>
+                    <span>Rafaella Ballerini</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__gaveta icono-item"></i>
+                    <span>Gaveta</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__alura icono-item"></i>
+                    <span>Alura Latam</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens suscripciones" href="#">Suscripciones</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="videojuegos">
+                <a class="menu__itens" href="#">
+                    <i class="icono__videojuegos icono-item"></i>
+                    <span>Videojuegos</span></a>
+            </li>
+
+            <li class="peliculas">
+                <a class="menu__itens" href="#">
+                    <i class="icono__peliculas icono-item"></i>
+                    <span>Películas</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icono__videos icono-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maspagina">
+                <a href="#">MÁS DE LA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Sección superior -->
+
+    <section class="superior__seccion__container">
+        <a class="superior__item" href="#">Todo</a>
+        <a class="superior__item" href="#">Debates</a>
+        <a class="superior__item" href="#">En Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Fondos de Inversión</a>
+        <a class="superior__item" href="#">Anime</a>
+        <a class="superior__item" href="#">Data Science</a>
+        <a class="superior__item" href="#">Apps</a>
+        <a class="superior__item" href="#">Lenguaje de Progamación</a>
+        <a class="superior__item" href="#">Ciencia de la computación</a>
+        <a class="superior__item" href="#">Marketing</a>
+    </section>
+
+
+    <!-- Formulario para análisis de video -->
+    <section class="formulario__container">
+        <h2 style="color: #333;">Análisis de Videos</h2>
+        <form id="videoForm">
+            <label for="videoLink" style="margin-bottom: 10px;">Ingrese el enlace del video:</label>
+            <input type="text" id="videoLink" name="videoLink" placeholder="Ej. https://www.youtube.com/watch?v=TuVideoId">
+            <button type="button" onclick="submitVideo()">Analizar Video</button>
+        </form>
+        <div id="mensaje"></div>
+    </section>
+
+    <!-- Vídeos -->
+    
+    <ul class="videos__container">
+        
+
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/smzMaAVhIQw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>¿Los cetáceos y los humanos hablan el mismo lenguaje? | DW Documental</h3>
+                    <p>2,2 M vistas - hace 3 años</p>
+                </div>
+            </div>
+        </li>
+
+
+        <li class="videos__item">
+            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/5kozt0uDa4c"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Amazing Scene of Wild Animals In 4K - Scenic Relaxation Film</h3>
+                    <p>10 M vistas - hace 2 años</p>
+                </div>
+            </div>
+        </li>
+        
+
+
+    </ul> 
+
+    <!-- <SECCIÓN rodapié> -->
+    <footer class="rodapie__container">
+        <section>
+            <h2 class="rodapie__titulo">Programación</h2>
+            <p class="rodapie__texto">Lógica</p>
+            <p>Python</p>
+            <p>Computación</p>
+            <p>Juegos</p>
+            <p>Computación</p>
+            <p>Node JS</p>
+        </section>
+
+        
+       
+    </footer>
+
+    <script>
+        function submitVideo() {
+            const videoLink = document.getElementById('videoLink').value.trim();
+            if (videoLink === '') {
+                document.getElementById('mensaje').innerText = 'Por favor, ingrese un enlace válido.';
+                return;
+            }
+
+            // URL de tu función Lambda
+            const lambdaURL = 'https://uxjjnv53abssslrnb26rcvlani0zxgby.lambda-url.us-east-1.on.aws/'; // Reemplaza con la URL de tu función Lambda
+
+            // Lógica para enviar el enlace del video a tu función Lambda
+            fetch(lambdaURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url: videoLink }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('mensaje').innerText = data.message; // Mostrar mensaje de confirmación
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('mensaje').innerText = 'Hubo un error al procesar el video.';
+            });
+        }
+    </script>
+       
+
+</body>
+
+</html>
